@@ -254,7 +254,7 @@ get({bufnr}, {opts})                                    *vim.diagnostic.get()*
                 Get current diagnostics.
 
                 Parameters: ~
-                    {bufnr}  number|nil Buffer number to get diagnistics from.
+                    {bufnr}  number|nil Buffer number to get diagnostics from.
                              Use 0 for current buffer or nil for all buffers.
                     {opts}   table|nil A table with the following keys:
                              • namespace: (number) Limit diagnostics to the
@@ -465,7 +465,7 @@ show_position_diagnostics({opts}, {bufnr}, {position})
 
                 Parameters: ~
                     {opts}      table|nil Configuration table with the same
-                                keys as |vim.lsp.util.open_floatin_preview()|
+                                keys as |vim.lsp.util.open_floating_preview()|
                                 in addition to the following:
                                 • namespace: (number) Limit diagnostics to the
                                   given namespace
